@@ -1,5 +1,11 @@
 Based on the Vending Machine Kata as listed by Guy Royse at: https://github.com/guyroyse/vending-machine-kata
-
+---
+There are a number of 'missing' cards that as a developer I would write and discuss with the business person 
+to make sure they are on board.  These cards are essentially required such as 'how does the machine know when
+it needs exact change' and 'how does the machine know when its sold out'.  Both of these would require
+respective inventory systems (coins & product) to be created.  These were purposely not added until
+those cards have had a chance to be written.
+---
 Vending Machine Kata
 In this exercise you will build the brains of a vending machine. It will accept money, make change, maintain inventory, and dispense products. All the things that you might expect a vending machine to accomplish.
 
