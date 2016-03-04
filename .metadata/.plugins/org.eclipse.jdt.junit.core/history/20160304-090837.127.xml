@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="vendingmachine" project="pojo" tests="31" started="31" failures="0" errors="0" ignored="0">
+  <testsuite name="vendingmachine.CoinSlotTest" time="0.001">
+    <testcase name="insertValidCoin" classname="vendingmachine.CoinSlotTest" time="0.001"/>
+    <testcase name="insertInvalidCoin" classname="vendingmachine.CoinSlotTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.DepositHopperTest" time="0.0">
+    <testcase name="addFunds" classname="vendingmachine.DepositHopperTest" time="0.0"/>
+    <testcase name="clear" classname="vendingmachine.DepositHopperTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.ProductTest" time="0.0">
+    <testcase name="invalidProduct" classname="vendingmachine.ProductTest" time="0.0"/>
+    <testcase name="coke" classname="vendingmachine.ProductTest" time="0.0"/>
+    <testcase name="candy" classname="vendingmachine.ProductTest" time="0.0"/>
+    <testcase name="chips" classname="vendingmachine.ProductTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.CoinReturnTest" time="0.0">
+    <testcase name="amountReturned" classname="vendingmachine.CoinReturnTest" time="0.0"/>
+    <testcase name="coinReturnMessage" classname="vendingmachine.CoinReturnTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.DisplayTest" time="0.003">
+    <testcase name="coinValueMessage_dime" classname="vendingmachine.DisplayTest" time="0.002"/>
+    <testcase name="coinValueMessage_dollar" classname="vendingmachine.DisplayTest" time="0.0"/>
+    <testcase name="coinValueMessage_nickle" classname="vendingmachine.DisplayTest" time="0.0"/>
+    <testcase name="coinValueMessage_tendollar" classname="vendingmachine.DisplayTest" time="0.001"/>
+    <testcase name="exactChangeMessage" classname="vendingmachine.DisplayTest" time="0.0"/>
+    <testcase name="displayPriceOnceThenInsertCoin" classname="vendingmachine.DisplayTest" time="0.0"/>
+    <testcase name="insertCoinMessage" classname="vendingmachine.DisplayTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.VendingMachineTest" time="0.003">
+    <testcase name="soldOut" classname="vendingmachine.VendingMachineTest" time="0.001"/>
+    <testcase name="returnCoins" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="insertMixValidAndInvalidCoin" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="selectChipsWithCorrectCoins" classname="vendingmachine.VendingMachineTest" time="0.001"/>
+    <testcase name="initialState" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="selectColaWithInsufficientCoins" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="insertMultipleValidCoin" classname="vendingmachine.VendingMachineTest" time="0.001"/>
+    <testcase name="insertValidCoin" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="insertInvalidCoin" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+    <testcase name="selectCandyWithMakingChange" classname="vendingmachine.VendingMachineTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="vendingmachine.CoinTest" time="0.001">
+    <testcase name="nickle" classname="vendingmachine.CoinTest" time="0.0"/>
+    <testcase name="invalidCoin" classname="vendingmachine.CoinTest" time="0.0"/>
+    <testcase name="dime" classname="vendingmachine.CoinTest" time="0.0"/>
+    <testcase name="quarter" classname="vendingmachine.CoinTest" time="0.0"/>
+  </testsuite>
+</testrun>
